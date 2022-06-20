@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+/*-----COLORS-----*/
+:root {
+    --grey-color: #f5f5f5;
+    --white-color: #fff;
+    --red-color: #DB1A1A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Comfortaa, sans-serif;
+}
+
+html {
+    font-size: 1.25em;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-header {
+    text-align: center;
+    font-size: 1.5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: var(--grey-color);
+    font-weight: 900;
+}
+
+/*-----MAIN FORM STYLES-----*/
+.main-form {
+    width: 390px;
+}
+
+.main-form__input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.main-form__input input,
+.main-form__btn {
+    padding: 7px 5px;
+    border-radius: 10px;
+    font-size: .95rem;
+}
+
+.main-form__btn {
+    margin-top: 15px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.main-form__list {
+    margin-top: 20px;
+}
+
+.main-form__list li {
+    margin: 5px 0;
+    text-align: center;
+}
+
+.error-msg {
+    font-weight: 900;
+    color: var(--white-color);
+    background-color: var(--red-color);
+    margin-top: 10px;
+    padding: 10px 5px;
+    width: 100%;
+    border-radius: 5px;
+}
