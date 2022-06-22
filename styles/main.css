@@ -42,6 +42,7 @@ body {
 /*-----MAIN FORM STYLES-----*/
 .main-form {
     width: 390px;
+    padding-top: 70px;
 }
 
 .main-form__input {
